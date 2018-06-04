@@ -16,5 +16,17 @@ namespace Garaj
         {
             InitializeComponent();
         }
+
+        private void tsmPersons_Click(object sender, EventArgs e)
+        {
+            tcGaraj.Hide();
+            tcPersons.Show();
+        }
+
+        private void tsmGaraj_Click(object sender, EventArgs e)
+        {
+           
+            tcGaraj.Show();
+        }
     }
 }
